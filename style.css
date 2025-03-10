@@ -4,16 +4,59 @@
     box-sizing: border-box;
   }
 
-  .container-main{
-    max-width: 1200px;
-    margin: 0 auto;
-    background-color: aquamarine;
-  }
-
   .title{
     text-align: center;
     margin: 20px 0;
     color: red;
     font-size: 40px;
     padding: 20px 0 30px 0;
+  }
+
+  .container-main{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+    
+  }
+
+  .introduction{
+    width: 100%;
+    text-align: center;
+    padding: 20px 20px 30px 20px;
+  }
+
+  .team{
+    /* width: calc(100% / 3); */
+    padding: 10px;
+    display: flex;
+  }
+
+  .team-member{
+    text-align: left;
+    padding: 10px;
+    background-color: black;
+  }
+
+  .team-member-name{
+    font-size:25px;
+    padding-bottom:10px;
+    color:white;
+  }
+
+  .team-member-role{
+    font-size:20px;
+    padding-bottom:20px;
+    color:white;
+  }
+
+  .team-member-email{
+    text-decoration: none;
+    color: rgb(45, 148, 233);
+  }
+
+  .team-member-img{
+    float:left;
+    width: 175px;
   }
